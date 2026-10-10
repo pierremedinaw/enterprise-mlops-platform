@@ -76,7 +76,7 @@ docker compose run --rm trainer
 docker compose up -d api
 ```
 
-Luego abre <http://127.0.0.1:8000/docs>. Detén el servicio con `docker compose down`.
+
 
 ## Estructura
 
