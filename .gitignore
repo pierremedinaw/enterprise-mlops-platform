@@ -1,0 +1,25 @@
+# Archivos y carpetas locales de Python.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Modelos binarios, ejecuciones y datos generados.
+artifacts/*
+!artifacts/.gitkeep
+mlruns/
+mlartifacts/
+*.db
+
+# Configuración local y secretos.
+.env
+.env.*
+!.env.example
+
+# SO y editores.
+.DS_Store
+Thumbs.db
+.vscode/
