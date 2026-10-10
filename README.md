@@ -48,15 +48,6 @@ python -m pytest -q
 uvicorn mlops_platform.api:app --reload
 ```
 
-> Si PowerShell bloquea `Activate.ps1`, usa `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` en **esa sesión** o ejecuta `./.venv/Scripts/python.exe` sin activar el entorno.
-
-La API se inicia en <http://127.0.0.1:8000/docs>. Para abrir MLflow en una **segunda terminal**, con el entorno activo:
-
-```powershell
-mlflow ui --backend-store-uri ./mlruns --host 127.0.0.1 --port 5000
-```
-
-MLflow estará en <http://127.0.0.1:5000>.
 
 ### Comprobar la predicción (PowerShell)
 
