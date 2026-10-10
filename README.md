@@ -2,7 +2,7 @@
 
 ![CI](https://github.com/pierremedinaw/enterprise-mlops-platform/actions/workflows/ci.yml/badge.svg)
 
-MVP **reproducible y gratuito** de MLOps con Python, Scikit-learn, MLflow, FastAPI, Docker y GitHub Actions. P
+MVP **reproducible y gratuito** de MLOps con Python, Scikit-learn, MLflow, FastAPI, Docker y GitHub 
 
 ## Qué demuestra
 
